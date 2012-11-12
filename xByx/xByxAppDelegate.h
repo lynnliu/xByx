@@ -11,5 +11,7 @@
 @interface xByxAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *input;
+@property (weak) IBOutlet NSTextField *result;
 
 @end

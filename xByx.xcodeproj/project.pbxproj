@@ -13,6 +13,7 @@
 		BAFDA77B164CA4A800472203 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA779164CA4A800472203 /* Credits.rtf */; };
 		BAFDA77E164CA4A800472203 /* xByxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA77D164CA4A800472203 /* xByxAppDelegate.m */; };
 		BAFDA781164CA4A800472203 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA77F164CA4A800472203 /* MainMenu.xib */; };
+		BAFDA790164CA5C900472203 /* CaculatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA78F164CA5C900472203 /* CaculatorHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BAFDA77C164CA4A800472203 /* xByxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xByxAppDelegate.h; sourceTree = "<group>"; };
 		BAFDA77D164CA4A800472203 /* xByxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xByxAppDelegate.m; sourceTree = "<group>"; };
 		BAFDA780164CA4A800472203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BAFDA78E164CA5C900472203 /* CaculatorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorHelper.h; sourceTree = "<group>"; };
+		BAFDA78F164CA5C900472203 /* CaculatorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BAFDA77C164CA4A800472203 /* xByxAppDelegate.h */,
 				BAFDA77D164CA4A800472203 /* xByxAppDelegate.m */,
 				BAFDA77F164CA4A800472203 /* MainMenu.xib */,
+				BAFDA78E164CA5C900472203 /* CaculatorHelper.h */,
+				BAFDA78F164CA5C900472203 /* CaculatorHelper.m */,
 				BAFDA771164CA4A800472203 /* Supporting Files */,
 			);
 			path = xByx;
@@ -169,6 +174,7 @@
 			files = (
 				BAFDA777164CA4A800472203 /* main.m in Sources */,
 				BAFDA77E164CA4A800472203 /* xByxAppDelegate.m in Sources */,
+				BAFDA790164CA5C900472203 /* CaculatorHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
